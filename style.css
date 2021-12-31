@@ -60,8 +60,7 @@ blockquote {
   margin: 0;
 }
 
-a,
-a:link {
+a {
   display: inline-block;
   text-decoration: none;
   color: hsl(var(--clr-black));
@@ -261,7 +260,7 @@ h4 {
 /* Components       */
 /* ---------------- */
 
-.subscription-btn {
+.subscription-btn.text-white {
   padding: 0.5rem 1rem;
   color: hsl(var(--clr-white));
 }
