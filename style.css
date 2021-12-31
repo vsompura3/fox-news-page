@@ -260,9 +260,9 @@ h4 {
 /* Components       */
 /* ---------------- */
 
-.subscription-btn.text-white {
+.subscription-btn {
   padding: 0.5rem 1rem;
-  color: hsl(var(--clr-white));
+  color: hsl(var(--clr-white)) !important;
 }
 
 .menu-btn {
