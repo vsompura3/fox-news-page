@@ -263,6 +263,7 @@ h4 {
 
 .subscription-btn {
   padding: 0.5rem 1rem;
+  color: hsl(var(--clr-white));
 }
 
 .menu-btn {
