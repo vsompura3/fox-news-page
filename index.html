@@ -35,9 +35,31 @@
             ><span class="text-white">Get 1 year for $50 USD</span></a
           >
         </div>
-        <button class="menu-btn outline-dotted">Menu</button>
+        <button
+          aria-controls="secondary-navigation"
+          aria-expanded="false"
+          class="menu-btn outline-dotted"
+        >
+          Menu
+        </button>
       </nav>
     </header>
+
+    <!-- Nav -->
+    <nav
+      id="secondary-navigation"
+      class="secondary-navigation"
+      data-visible="false"
+    >
+      <ul class="flex">
+        <li><a href="#">Latest</a></li>
+        <li><a href="#">Read</a></li>
+        <li><a href="#">Listen</a></li>
+        <li><a href="#">Watch</a></li>
+        <li><a href="#">Discuss</a></li>
+        <li><a href="#">Shop</a></li>
+      </ul>
+    </nav>
 
     <!-- Main -->
     <main class="container">
@@ -284,5 +306,8 @@
         </p>
       </div>
     </footer>
+
+    <!-- JS -->
+    <script src="./script.js"></script>
   </body>
 </html>
